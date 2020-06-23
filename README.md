@@ -16,11 +16,12 @@ We define a partition **i** on an array **A** as the array where for all indices
 **Note:** If this were the partition scheme used in a quicksort implementation, it will be expected that its time complexity is `O(n)` and space complexity is `O(1)`. It might also be expected to be an [stable partition](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability). This exercise only requires you to comply with the time and space complexities. Designing a stable algorithm is a plus.
 
 **Details**:
-* **A** can have duplicates.
-* 0 < `len(A)` <= 10^9.
+* All elements of **A** are unique.
+* 0 < `len(A)` < 10^7.
 
 # How to submit.
 
+* Complete the function `partition(A: List[int]):` under `solution.py`.
 * All code will be checked for readability using [**pylint**](https://www.pylint.org/).
 * A grader is included, and all test cases must pass.
 * *Don't modify the grader!*
